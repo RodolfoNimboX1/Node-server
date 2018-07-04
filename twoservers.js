@@ -20,7 +20,7 @@ console.log("You handesome and this is the PORT: "+ PORT);
 
 // function to handle requests and respones from PORT2
 function requestPORT2(request, response) {
-    response.end("Nice request! Path hit: " + request.url);
+    response.end("Bad request! Path hit: " + request.url);
 }
 
 // Pass requestPORT2 to empower it with functionality
